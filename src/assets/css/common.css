@@ -1,0 +1,11 @@
+
+.Wrap {
+	/* width: 85%; */
+	margin: 0 auto;
+}
+
+.cFix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
